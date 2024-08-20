@@ -8,9 +8,11 @@ export type FlexContainerProps = {
   width?: string
   rowGap?: string
   columnGap?: string
+  display?: string
   height?: string
   bgColor?: string
   borderRadius?: string
+  overflow?: 'auto' | 'clip' | 'hidden' | 'scroll' | 'visible'
   flex?: number
   border?: string
   top?: string
@@ -30,4 +32,5 @@ export type FlexContainerProps = {
   paddingBottom?: string
   paddingLeft?: string
   paddingRight?: string
+  position?: 'static' | 'relative' | 'fixed' | 'absolute' | 'sticky'
 }

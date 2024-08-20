@@ -5,7 +5,7 @@ import { theme } from '@styles/theme'
 export const Footer = () => {
   return (
     <FooterStyle>
-      <Paragraph size={theme.fontSize.h6}>
+      <Paragraph size={theme.fontSize.h9} color={theme.colors.white}>
         © 2024 Vibras Tecnologia LTDA -
         Campo Mourão - PR - Brasil -  CNPJ: 54.042.244/0001-86
       </Paragraph>

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import {FlexContainerProps} from './props'
 
 export const FlexContainer = styled.div<FlexContainerProps>`
-  display: flex;
+  display: ${(props) => props.display ?? 'flex'};
   ${(props) => props.justify && `justify-content: ${props.justify}`};
   ${(props) => props.align && `align-items: ${props.align}`};
   ${(props) => props.rowGap && `row-gap: ${props.rowGap}`};
