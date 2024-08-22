@@ -18,11 +18,15 @@ export default function Home() {
         <LogoImage/>
       </Flex>
       <Flex direction='column' align='center' height='50%'>
-        <Paragraph color={theme.colors.white}>
-          Vibras Tecnologia
-        </Paragraph>
-        <Paragraph color={theme.colors.white}>
+        <Paragraph color={theme.colors.white} size={theme.fontSize.h5}>
           Tecnologia voltada a equidade social
+        </Paragraph>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <Paragraph color={theme.colors.white}  size={theme.fontSize.h5}>
+          Acompanhe a Vibras Tecnologias nas redes sociais para mais novidades
         </Paragraph>
       <Footer/>
       </Flex>
