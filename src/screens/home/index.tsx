@@ -9,6 +9,7 @@ import { Footer } from '@components/footer'
 import { InstagramIcon } from '@assets/icons/InstagramIcon'
 import { FacebookIcon } from '@assets/icons/FacebookIcon'
 import LogoBrancaFundoTransparente from '@assets/images/LogoBrancaFundoTransparente.png'
+import { Header } from '@components/header'
 
 export default function Home() {
   return (
@@ -18,11 +19,15 @@ export default function Home() {
       bgColor={theme.colors.primary}
       align='center'
     >
-      <Flex height='50%' justify='center'>
+      <Header>
+        
+      </Header>
+      <Flex paddingLeft='4%' height='50%' justify='center'>
         <LogoImage src={LogoBrancaFundoTransparente}/>
       </Flex>
+
       <Flex direction='column' align='center'>
-        <Paragraph color={theme.colors.white} size={theme.fontSize.h5}>
+        <Paragraph color={theme.colors.white} size={theme.fontSize.h4}>
           Tecnologia voltada à equidade social
         </Paragraph>
         <br />
@@ -36,10 +41,10 @@ export default function Home() {
       <br />
       <br />
       <Flex width='30%' justify='space-evenly'>
-        <a href="https://instagram.com/vibrastecnologia">
+        <a href="https://instagram.com/vibrastecnologia" target='blank'>
           <InstagramIcon />
         </a>
-        <a href="https://www.facebook.com/100095027293080">
+        <a href="https://www.facebook.com/100095027293080" target='blank'>
           <FacebookIcon />
         </a>
       </Flex>

@@ -13,8 +13,7 @@ export const styledTheme: DefaultTheme = {
     borderRadius: '8px',
   },
   colors: {
-    primary: '#0D008F',
-    secondary: '#0CC0DF',
+
     black: '#272727',
     white: '#FFFFFF',
     disabled: '#B9B9B9',
@@ -114,8 +113,8 @@ export const styledTheme: DefaultTheme = {
 
 export const theme = {
   colors: {
-    primary: '#145D99',
-    secondary: '#09A7C7',
+    primary: '#0D008F',
+    secondary: '#0CC0DF',
 
     black: '#272727',
     white: '#FFFFFF',

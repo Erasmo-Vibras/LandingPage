@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { Flex } from '@components/flex'
 
 export const HeaderContainer = styled.header`
   top: 0;
@@ -16,6 +15,7 @@ export const HeaderLogoContainer = styled.button`
   height: 64px;
   margin-top: 0.5rem;
   margin-left: 10rem;
+
   background-color: transparent;
   cursor: pointer;
   border: none;
