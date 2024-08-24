@@ -13,7 +13,6 @@ export const styledTheme: DefaultTheme = {
     borderRadius: '8px',
   },
   colors: {
-
     black: '#272727',
     white: '#FFFFFF',
     disabled: '#B9B9B9',

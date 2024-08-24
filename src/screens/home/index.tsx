@@ -1,15 +1,12 @@
-
-import { Flex } from '@components/flex'
-// import { Footer } from '@components/footer'
-// import { Header } from '@components/header'
 import { theme } from '@styles/theme'
-import { LogoImage } from './styles'
-import { Paragraph } from '@components/paragraph'
-import { Footer } from '@components/footer'
 import { InstagramIcon } from '@assets/icons/InstagramIcon'
 import { FacebookIcon } from '@assets/icons/FacebookIcon'
 import LogoBrancaFundoTransparente from '@assets/images/LogoBrancaFundoTransparente.png'
+import { Flex } from '@components/flex'
 import { Header } from '@components/header'
+import { Footer } from '@components/footer'
+import { Paragraph } from '@components/paragraph'
+import { LogoImage, SocialMediaIconsContainer, SocialMediaText } from './styles'
 
 export default function Home() {
   return (
@@ -19,35 +16,31 @@ export default function Home() {
       bgColor={theme.colors.primary}
       align='center'
     >
-      <Header>
-        
-      </Header>
+      <Header />
+
       <Flex paddingLeft='4%' height='50%' justify='center'>
-        <LogoImage src={LogoBrancaFundoTransparente}/>
+        <LogoImage src={LogoBrancaFundoTransparente} />
       </Flex>
 
-      <Flex direction='column' align='center'>
+      <Flex direction='column' height='30%' >
         <Paragraph color={theme.colors.white} size={theme.fontSize.h4}>
           Tecnologia voltada à equidade social
         </Paragraph>
-        <br />
-        <br />
-        <br />
-        <br />
-        <Paragraph color={theme.colors.white} size={theme.fontSize.h5}>
+
+        <SocialMediaText>
           Acompanhe nossas redes sociais para mais novidades
-        </Paragraph>
+        </SocialMediaText>
       </Flex>
-      <br />
-      <br />
-      <Flex width='30%' justify='space-evenly'>
+      
+      <SocialMediaIconsContainer>
         <a href="https://instagram.com/vibrastecnologia" target='blank'>
           <InstagramIcon />
         </a>
         <a href="https://www.facebook.com/100095027293080" target='blank'>
           <FacebookIcon />
         </a>
-      </Flex>
+      </SocialMediaIconsContainer>
+
       <Footer />
     </Flex>
   )
