@@ -3,10 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://erasmo-vibras.github.io/landingPage",
-
+  "homepage": "https://Erasmo-Vibras.github.io/LandingPage",
   "scripts": {
-    "predeploy": "yarn run build",
+    "predeploy": "vite build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",

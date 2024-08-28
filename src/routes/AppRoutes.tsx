@@ -5,8 +5,8 @@ import Home from '@screens/home'
 export const AppRoutes = () => {
   return (
     <Routes>
-      <Route index path='/' element={<Home />} />
-      <Route path='*' element={<Navigate to={'/'} />} />
+      <Route index path='/LandingPage' element={<Home />} />
+      <Route path='*' element={<Navigate to={'/LandingPage'} />} />
     </Routes>
   )
 }
