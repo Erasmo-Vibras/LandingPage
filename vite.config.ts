@@ -8,5 +8,5 @@ export default defineConfig({
     port: parseInt(process.env.VITE_PORT || '3000'),
   },
   plugins: [react(), tsconfigPaths()],
-  base:'/LandingPage/'
+  base:'/'
 })
