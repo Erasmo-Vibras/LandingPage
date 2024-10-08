@@ -15,12 +15,18 @@ export const HeaderContainer = styled.header`
 `
 
 export const HeaderLogoContainer = styled.button`
-  width: 5rem;
-  height: 5rem;
+  width: 10rem;
+  height: 3rem;
   margin-top: 0.5rem;
   margin-left: 5rem;
 
   background-color: transparent;
   cursor: pointer;
   border: none;
+`
+
+export const LogoImageHeader = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
 `

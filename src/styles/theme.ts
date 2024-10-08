@@ -112,8 +112,8 @@ export const styledTheme: DefaultTheme = {
 
 export const theme = {
   colors: {
-    primary: '#0D008F',
-    secondary: '#0CC0DF',
+    primary: '#0C2333',
+    secondary: '#209AAA',
 
     black: '#272727',
     white: '#FFFFFF',

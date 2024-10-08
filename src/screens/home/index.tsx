@@ -18,7 +18,7 @@ export default function Home() {
     >
       <Header />
 
-      <Flex paddingLeft='4%' height='50%' justify='center'>
+      <Flex  paddingTop='10%' height='25%' justify='center'>
         <LogoImage src={LogoBrancaFundoTransparente} />
       </Flex>
 
